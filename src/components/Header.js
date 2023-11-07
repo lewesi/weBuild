@@ -66,23 +66,23 @@ const Header = () => {
       <header className="header-bottom py-3">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-12">
-              <div className="menu-bottom align-items-center gap-30">
+            <div className="col-10">
+              <div className="menu-bottom justify-content-center gap-30">
                 <div>
                   <div className="dropdown">
-                    <button className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 me-5 d-flex" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                       <img src="images/menu.svg" alt="menu" />
-                      <span>Item Categories</span>
+                      <span className='me-5 d-inline-block' >Item Categories</span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><Link className="dropdown-item text-white" to="">Action</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Another action</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Something else here</Link></li>
                     </ul>
                   </div>
                 </div>
                 <div className='menu-links'>
-                  <div className='d-flex align-items-center gap-15'>
+                  <div className='d-flex justify-content-center gap-15'>
                     <NavLink to="/">Home</NavLink>
                     <NavLink to="/">Our Store</NavLink>
                     <NavLink to="/">Blogs</NavLink>
