@@ -9,10 +9,10 @@ const Header = () => {
         <div className='container-xxl'>
           <div className='row'>
             <div className='col-6'>
-              <p className='text-white mb-0'>Free Shipping</p>
+              <p className='text-white mb-0'>Shipping Services</p>
             </div>
             <div className='col-6'>
-              <p className=' text-end text-white mb-0'>Hotline: <a href='tel:+254 742345931' className='text-white'>+254 742345931</a> </p>
+              <p className=' text-end text-white mb-0'>Call to order: <a href='tel:+254 742345931' className='text-white'>+254 742345931</a> </p>
             </div>
           </div>
         </div>
